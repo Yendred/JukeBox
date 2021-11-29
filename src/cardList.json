@@ -1,0 +1,2723 @@
+{
+    "Settings": {
+        "initialVolume": 20,
+        "logFile": "/var/log/musiccards/music-cards.log",
+        "musicRoot": "/mnt/USBMusic/Sorted/"
+    },
+    "Cards": [
+        {
+            "ID": "0002911458",
+            "Name": "Radio, WHRV - NPR",
+            "Type": "song",
+            "URI": "https://stationwhrv.whro.org/128"
+        },
+
+
+        {
+            "ID": "0002933058",
+            "Name": "Reboot Pi",
+            "Type": "system",
+            "URI": "system://pi/reboot"
+        },
+        {
+            "ID": "0002933057",
+            "Name": "Shutdown Pi",
+            "Type": "system",
+            "URI": "system://pi/shutdown"
+        },
+        {
+            "ID": "0002915921",
+            "Name": "Quit",
+            "Type": "system",
+            "URI": "system://pi/quit"
+        },
+        {
+            "ID": "0002933292",
+            "Name": "Volume Up",
+            "Type": "setting",
+            "URI": "setting://volume/up/10"
+        },
+        {
+            "ID": "0002933291",
+            "Name": "Volume Down",
+            "Type": "setting",
+            "URI": "setting://volume/down/10"
+        },
+        {
+            "ID": "0002933270",
+            "Name": "Pause",
+            "Type": "action",
+            "URI": "action://pause"
+        },
+        {
+            "ID": "0002933269",
+            "Name": "Play",
+            "Type": "action",
+            "URI": "action://play"
+        },
+        {
+            "ID": "0002929617",
+            "Name": "Stop",
+            "Type": "action",
+            "URI": "action://stop"
+        },
+        {
+            "ID": "0002929612",
+            "Name": "Next",
+            "Type": "action",
+            "URI": "action://next"
+        },
+        {
+            "ID": "0002973948",
+            "Name": "Skip Forward",
+            "Type": "action",
+            "URI": "action://skip/forward/15"
+        },
+        {
+            "ID": "0002973939",
+            "Name": "Skip Backward",
+            "Type": "action",
+            "URI": "action://skip/backward/15"
+        },
+        {
+            "ID": "0002915856",
+            "Name": "Previous",
+            "Type": "action",
+            "URI": "action://previous"
+        },
+        {
+            "ID": "0000000001",
+            "Name": "Aaron Goldberg - Worlds",
+            "Type": "album",
+            "URI": "Aaron Goldberg/Worlds"
+        },
+        {
+            "ID": "0002978456",
+            "Name": "ABBA - Gold - Greatest Hits",
+            "Type": "album",
+            "URI": "ABBA/Gold - Greatest Hits"
+        },
+        {
+            "ID": "0000000003",
+            "Name": "Aisha Duo - Quiet Songs",
+            "Type": "album",
+            "URI": "Aisha Duo/Quiet Songs"
+        },
+        {
+            "ID": "0000000004",
+            "Name": "Alexi Murdoch - Towards the Sun",
+            "Type": "album",
+            "URI": "Alexi Murdoch/Towards the Sun"
+        },
+        {
+            "ID": "0002978438",
+            "Name": "Alice in Chains - Alice in Chains",
+            "Type": "album",
+            "URI": "Alice in Chains/Alice in Chains"
+        },
+        {
+            "ID": "0002978433",
+            "Name": "America - History - America's Greatest Hits",
+            "Type": "album",
+            "URI": "America/History - America's Greatest Hits"
+        },
+        {
+            "ID": "0000000007",
+            "Name": "Andy Caldwell - Universal Truth",
+            "Type": "album",
+            "URI": "Andy Caldwell/Universal Truth"
+        },
+        {
+            "ID": "0002978293",
+            "Name": "Antigone Rising - From the Ground Up",
+            "Type": "album",
+            "URI": "Antigone Rising/From the Ground Up"
+        },
+        {
+            "ID": "0002978276",
+            "Name": "Augustana - All the Stars and Boulevards",
+            "Type": "album",
+            "URI": "Augustana/All the Stars and Boulevards"
+        },
+        {
+            "ID": "0000000010",
+            "Name": "AWOLNATION - Megalithic Symphony",
+            "Type": "album",
+            "URI": "AWOLNATION/Megalithic Symphony"
+        },
+        {
+            "ID": "0002978271",
+            "Name": "Baka Beyond - Spirit of the Forest",
+            "Type": "album",
+            "URI": "Baka Beyond/Spirit of the Forest"
+        },
+        {
+            "ID": "0000000012",
+            "Name": "Barenaked Ladies - Gordon",
+            "Type": "album",
+            "URI": "Barenaked Ladies/Gordon"
+        },
+        {
+            "ID": "0002976876",
+            "Name": "Barenaked Ladies - Maroon",
+            "Type": "album",
+            "URI": "Barenaked Ladies/Maroon"
+        },
+        {
+            "ID": "0002976866",
+            "Name": "Barenaked Ladies - Rock Spectacle",
+            "Type": "album",
+            "URI": "Barenaked Ladies/Rock Spectacle"
+        },
+        {
+            "ID": "0002976853",
+            "Name": "Beck - Guero",
+            "Type": "album",
+            "URI": "Beck/Guero"
+        },
+        {
+            "ID": "0002900345",
+            "Name": "Beck - Midnite Vultures",
+            "Type": "album",
+            "URI": "Beck/Midnite Vultures"
+        },
+        {
+            "ID": "0002900430",
+            "Name": "Beck - Sea Change",
+            "Type": "album",
+            "URI": "Beck/Sea Change"
+        },
+        {
+            "ID": "0000000018",
+            "Name": "Ben Folds - Rockin' the Suburbs",
+            "Type": "album",
+            "URI": "Ben Folds/Rockin' the Suburbs"
+        },
+        {
+            "ID": "0002974172",
+            "Name": "Ben Folds Five - Ben Folds Five",
+            "Type": "album",
+            "URI": "Ben Folds Five/Ben Folds Five"
+        },
+        {
+            "ID": "0002974155",
+            "Name": "Billy Corgan - TheFutureEmbrace",
+            "Type": "album",
+            "URI": "Billy Corgan/TheFutureEmbrace"
+        },
+        {
+            "ID": "0002974247",
+            "Name": "Bing Crosby - Bing Crosby's Christmas Classics",
+            "Type": "album",
+            "URI": "Bing Crosby/Bing Crosby's Christmas Classics"
+        },
+        {
+            "ID": "0002974240",
+            "Name": "Bing Crosby - The Very Best of Bing Crosby Christmas",
+            "Type": "album",
+            "URI": "Bing Crosby/The Very Best of Bing Crosby Christmas"
+        },
+        {
+            "ID": "0002973959",
+            "Name": "Bing Crosby - White Christmas",
+            "Type": "album",
+            "URI": "Bing Crosby/White Christmas"
+        },
+        {
+            "ID": "0002974149",
+            "Name": "Bjork - Debut",
+            "Type": "album",
+            "URI": "Bjork/Debut"
+        },
+        {
+            "ID": "0002974134",
+            "Name": "Blind Melon - Blind Melon",
+            "Type": "album",
+            "URI": "Blind Melon/Blind Melon"
+        },
+        {
+            "ID": "0002974127",
+            "Name": "Blind Melon - Soup",
+            "Type": "album",
+            "URI": "Blind Melon/Soup"
+        },
+        {
+            "ID": "0000000027",
+            "Name": "Blind Melon - Sting Me",
+            "Type": "album",
+            "URI": "Blind Melon/Sting Me"
+        },
+        {
+            "ID": "0002974112",
+            "Name": "Blues Traveler - four",
+            "Type": "album",
+            "URI": "Blues Traveler/four"
+        },
+        {
+            "ID": "0000000029",
+            "Name": "Bob Rivers - Best of Twisted Tunes, Volume 1",
+            "Type": "album",
+            "URI": "Bob Rivers/Best of Twisted Tunes, Volume 1"
+        },
+        {
+            "ID": "0000000030",
+            "Name": "BOY - Mutual Friends",
+            "Type": "album",
+            "URI": "BOY/Mutual Friends"
+        },
+        {
+            "ID": "0002974105",
+            "Name": "CAKE - Comfort Eagle",
+            "Type": "album",
+            "URI": "CAKE/Comfort Eagle"
+        },
+        {
+            "ID": "0004149856",
+            "Name": "CAKE - Fashion Nugget",
+            "Type": "album",
+            "URI": "CAKE/Fashion Nugget"
+        },
+        {
+            "ID": "0004133754",
+            "Name": "CAKE - Motorcade of Generosity",
+            "Type": "album",
+            "URI": "CAKE/Motorcade of Generosity"
+        },
+        {
+            "ID": "0004133759",
+            "Name": "CAKE - Prolonging the Magic",
+            "Type": "album",
+            "URI": "CAKE/Prolonging the Magic"
+        },
+        {
+            "ID": "0004133732",
+            "Name": "Carly Simon - The Best of Carly Simon",
+            "Type": "album",
+            "URI": "Carly Simon/The Best of Carly Simon"
+        },
+        {
+            "ID": "0002973972",
+            "Name": "Cat Stevens - Footsteps in the Dark - Greatest Hits Volume Two",
+            "Type": "album",
+            "URI": "Cat Stevens/Footsteps in the Dark - Greatest Hits Volume Two"
+        },
+        {
+            "ID": "0000000037",
+            "Name": "Chris Thile & Michael Daves - Sleep With One Eye Open",
+            "Type": "album",
+            "URI": "Chris Thile & Michael Daves/Sleep With One Eye Open"
+        },
+        {
+            "ID": "0004134016",
+            "Name": "Coldplay - A Rush of Blood to the Head",
+            "Type": "album",
+            "URI": "Coldplay/A Rush of Blood to the Head"
+        },
+        {
+            "ID": "0004096282",
+            "Name": "Coldplay - Parachutes",
+            "Type": "album",
+            "URI": "Coldplay/Parachutes"
+        },
+        {
+            "ID": "0004133781",
+            "Name": "Coldplay - X&Y",
+            "Type": "album",
+            "URI": "Coldplay/X&Y"
+        },
+        {
+            "ID": "0000000041",
+            "Name": "Collective Soul - Hints Allegations and Things Left Unsaid",
+            "Type": "album",
+            "URI": "Collective Soul/Hints Allegations and Things Left Unsaid"
+        },
+        {
+            "ID": "0000000042",
+            "Name": "Counting Crows - 2000-05-05 - Shim Sham Club, New Orleans, LA, USA",
+            "Type": "album",
+            "URI": "Counting Crows/2000-05-05 - Shim Sham Club, New Orleans, LA, USA"
+        },
+        {
+            "ID": "0000000043",
+            "Name": "Counting Crows - Across a Wire - Live in New York City",
+            "Type": "album",
+            "URI": "Counting Crows/Across a Wire - Live in New York City"
+        },
+        {
+            "ID": "0000000044",
+            "Name": "Counting Crows - 1999-10-17 - Live at the Melkweg, Melkweg, Amsterdam, Netherlands",
+            "Type": "album",
+            "URI": "Counting Crows/1999-10-17 - Live at the Melkweg, Melkweg, Amsterdam, Netherlands"
+        },
+        {
+            "ID": "0004133798",
+            "Name": "Counting Crows - August and Everything After",
+            "Type": "album",
+            "URI": "Counting Crows/August and Everything After"
+        },
+        {
+            "ID": "0000000046",
+            "Name": "Counting Crows - B Sides",
+            "Type": "album",
+            "URI": "Counting Crows/B Sides"
+        },
+        {
+            "ID": "0000000047",
+            "Name": "Counting Crows - Films About Ghosts - The Best Of..",
+            "Type": "album",
+            "URI": "Counting Crows/Films About Ghosts - The Best Of.."
+        },
+        {
+            "ID": "0000000048",
+            "Name": "Counting Crows - Gimme Thunder Gimme Rain",
+            "Type": "album",
+            "URI": "Counting Crows/Gimme Thunder Gimme Rain"
+        },
+        {
+            "ID": "0004133803",
+            "Name": "Counting Crows - Recovering the Satellites",
+            "Type": "album",
+            "URI": "Counting Crows/Recovering the Satellites"
+        },
+        {
+            "ID": "0004133820",
+            "Name": "Counting Crows - Saturday Nights & Sunday Mornings",
+            "Type": "album",
+            "URI": "Counting Crows/Saturday Nights & Sunday Mornings"
+        },
+        {
+            "ID": "0000000051",
+            "Name": "Counting Crows - Thievish Magpies",
+            "Type": "album",
+            "URI": "Counting Crows/Thievish Magpies"
+        },
+        {
+            "ID": "0004133825",
+            "Name": "Counting Crows - This Desert Life",
+            "Type": "album",
+            "URI": "Counting Crows/This Desert Life"
+        },
+        {
+            "ID": "0004169539",
+            "Name": "Counting Crows - Underwater Sunshine (or What We Did on Our Summer Vacation)",
+            "Type": "album",
+            "URI": "Counting Crows/Underwater Sunshine (or What We Did on Our Summer Vacation)"
+        },
+        {
+            "ID": "0004169524",
+            "Name": "Creed - Weathered",
+            "Type": "album",
+            "URI": "Creed/Weathered"
+        },
+        {
+            "ID": "0004169517",
+            "Name": "Crosby, Stills & Nash - Crosby, Stills & Nash",
+            "Type": "album",
+            "URI": "Crosby, Stills & Nash/Crosby, Stills & Nash"
+        },
+        {
+            "ID": "0004169502",
+            "Name": "Crosby, Stills, Nash & Young - American Dream",
+            "Type": "album",
+            "URI": "Crosby, Stills, Nash & Young/American Dream"
+        },
+        {
+            "ID": "0000000057",
+            "Name": "Dan Mangan - Robots vs. Indie Queens",
+            "Type": "album",
+            "URI": "Dan Mangan/Robots vs. Indie Queens"
+        },
+        {
+            "ID": "0004169495",
+            "Name": "Dave Matthews - Some Devil",
+            "Type": "album",
+            "URI": "Dave Matthews/Some Devil"
+        },
+        {
+            "ID": "0004169480",
+            "Name": "Depeche Mode - 101",
+            "Type": "album",
+            "URI": "Depeche Mode/101"
+        },
+        {
+            "ID": "0004169473",
+            "Name": "Depeche Mode - Black Celebration",
+            "Type": "album",
+            "URI": "Depeche Mode/Black Celebration"
+        },
+        {
+            "ID": "0000000061",
+            "Name": "Depeche Mode - Delta Machine",
+            "Type": "album",
+            "URI": "Depeche Mode/Delta Machine"
+        },
+        {
+            "ID": "0004168429",
+            "Name": "Depeche Mode - Music for the Masses",
+            "Type": "album",
+            "URI": "Depeche Mode/Music for the Masses"
+        },
+        {
+            "ID": "0004168420",
+            "Name": "Depeche Mode - People Are People",
+            "Type": "album",
+            "URI": "Depeche Mode/People Are People"
+        },
+        {
+            "ID": "0004168646",
+            "Name": "Depeche Mode - Some Great Reward",
+            "Type": "album",
+            "URI": "Depeche Mode/Some Great Reward"
+        },
+        {
+            "ID": "0004159955",
+            "Name": "Depeche Mode - Violator",
+            "Type": "album",
+            "URI": "Depeche Mode/Violator"
+        },
+        {
+            "ID": "0004007997",
+            "Name": "Depeche Mode - The Singles 81-85",
+            "Type": "album",
+            "URI": "Depeche Mode/The Singles 81-85"
+        },
+        {
+            "ID": "0000000067",
+            "Name": "Dire Straits - Brothers in Arms",
+            "Type": "album",
+            "URI": "Dire Straits/Brothers in Arms"
+        },
+        {
+            "ID": "0000000068",
+            "Name": "Drivin' N' Cryin' - Mystery Road",
+            "Type": "album",
+            "URI": "Drivin' N' Cryin'/Mystery Road"
+        },
+        {
+            "ID": "0000000069",
+            "Name": "Drivin' N' Cryin' - The Essential Live",
+            "Type": "album",
+            "URI": "Drivin' N' Cryin'/The Essential Live"
+        },
+        {
+            "ID": "0002973994",
+            "Name": "Duncan Sheik - Duncan Sheik",
+            "Type": "album",
+            "URI": "Duncan Sheik/Duncan Sheik"
+        },
+        {
+            "ID": "0004168461",
+            "Name": "Duncan Sheik - Humming",
+            "Type": "album",
+            "URI": "Duncan Sheik/Humming"
+        },
+        {
+            "ID": "0000000072",
+            "Name": "Eagles - Please Come Home for Christmas - Funky New Year",
+            "Type": "album",
+            "URI": "Eagles/Please Come Home for Christmas - Funky New Year"
+        },
+        {
+            "ID": "0004169329",
+            "Name": "Eddie From Ohio - Looking Out the Fishbowl",
+            "Type": "album",
+            "URI": "Eddie From Ohio/Looking Out the Fishbowl"
+        },
+        {
+            "ID": "0004169322",
+            "Name": "Eddie From Ohio - Quick",
+            "Type": "album",
+            "URI": "Eddie From Ohio/Quick"
+        },
+        {
+            "ID": "0004169307",
+            "Name": "Eddie From Ohio - This Is Me",
+            "Type": "album",
+            "URI": "Eddie From Ohio/This Is Me"
+        },
+        {
+            "ID": "0004169300",
+            "Name": "Edie Brickell & New Bohemians - Shooting Rubberbands at the Stars",
+            "Type": "album",
+            "URI": "Edie Brickell & New Bohemians/Shooting Rubberbands at the Stars"
+        },
+        {
+            "ID": "0004169285",
+            "Name": "Elvis Costello - The Best of Elvis Costello - The First 10 Years",
+            "Type": "album",
+            "URI": "Elvis Costello/The Best of Elvis Costello - The First 10 Years"
+        },
+        {
+            "ID": "0004169278",
+            "Name": "Elvis Costello & The Attractions - All This Useless Beauty",
+            "Type": "album",
+            "URI": "Elvis Costello & The Attractions/All This Useless Beauty"
+        },
+        {
+            "ID": "0000000079",
+            "Name": "Elvis Costello and The Roots - Wise Up Ghost",
+            "Type": "album",
+            "URI": "Elvis Costello and The Roots/Wise Up Ghost"
+        },
+        {
+            "ID": "0000000080",
+            "Name": "Elvis Presley - Pure Gold",
+            "Type": "album",
+            "URI": "Elvis Presley/Pure Gold"
+        },
+        {
+            "ID": "0004169546",
+            "Name": "Elvis Presley - The King of Rock 'n' Roll - The Complete 50's Masters",
+            "Type": "album",
+            "URI": "Elvis Presley/The King of Rock 'n' Roll - The Complete 50's Masters"
+        },
+        {
+            "ID": "0000000082",
+            "Name": "Eoin Colfer read by Nathaniel Parker - Artemis Fowl",
+            "Type": "album",
+            "URI": "Eoin Colfer read by Nathaniel Parker/Artemis Fowl"
+        },
+        {
+            "ID": "0004159974",
+            "Name": "Eric Clapton - The Cream of Clapton",
+            "Type": "album",
+            "URI": "Eric Clapton/The Cream of Clapton"
+        },
+        {
+            "ID": "0000000084",
+            "Name": "Everclear - So Much for the Afterglow",
+            "Type": "album",
+            "URI": "Everclear/So Much for the Afterglow"
+        },
+        {
+            "ID": "0004159977",
+            "Name": "Everything but the Girl - Acoustic",
+            "Type": "album",
+            "URI": "Everything but the Girl/Acoustic"
+        },
+        {
+            "ID": "0004159996",
+            "Name": "Fiona Apple - Tidal",
+            "Type": "album",
+            "URI": "Fiona Apple/Tidal"
+        },
+        {
+            "ID": "0002974003",
+            "Name": "Five for Fighting - The Battle for Everything",
+            "Type": "album",
+            "URI": "Five for Fighting/The Battle for Everything"
+        },
+        {
+            "ID": "0004159880",
+            "Name": "Fleetwood Mac - Greatest Hits",
+            "Type": "album",
+            "URI": "Fleetwood Mac/Greatest Hits"
+        },
+        {
+            "ID": "0004159873",
+            "Name": "Fleming & John - Delusions of Grandeur",
+            "Type": "album",
+            "URI": "Fleming & John/Delusions of Grandeur"
+        },
+        {
+            "ID": "0004159858",
+            "Name": "Foo Fighters - Echoes, Silence, Patience & Grace",
+            "Type": "album",
+            "URI": "Foo Fighters/Echoes, Silence, Patience & Grace"
+        },
+        {
+            "ID": "0004159851",
+            "Name": "Foo Fighters - Five Songs and a Cover",
+            "Type": "album",
+            "URI": "Foo Fighters/Five Songs and a Cover"
+        },
+        {
+            "ID": "0004159895",
+            "Name": "Foo Fighters - Foo Fighters",
+            "Type": "album",
+            "URI": "Foo Fighters/Foo Fighters"
+        },
+        {
+            "ID": "0002974016",
+            "Name": "Foo Fighters - Greatest Hits",
+            "Type": "album",
+            "URI": "Foo Fighters/Greatest Hits"
+        },
+        {
+            "ID": "0004159902",
+            "Name": "Foo Fighters - In Your Honor",
+            "Type": "album",
+            "URI": "Foo Fighters/In Your Honor"
+        },
+        {
+            "ID": "0004149877",
+            "Name": "Foo Fighters - Skin and Bones",
+            "Type": "album",
+            "URI": "Foo Fighters/Skin and Bones"
+        },
+        {
+            "ID": "0004160527",
+            "Name": "Foo Fighters - There Is Nothing Left to Lose",
+            "Type": "album",
+            "URI": "Foo Fighters/There Is Nothing Left to Lose"
+        },
+        {
+            "ID": "0000000097",
+            "Name": "Frank Sinatra - Classic Sinatra - His Great Performances 1953-1960",
+            "Type": "album",
+            "URI": "Frank Sinatra/Classic Sinatra - His Great Performances 1953-1960"
+        },
+        {
+            "ID": "0004151377",
+            "Name": "Gear Daddies - Billy's Live Bait",
+            "Type": "album",
+            "URI": "Gear Daddies/Billy's Live Bait"
+        },
+        {
+            "ID": "0004164586",
+            "Name": "Genesis - Invisible Touch",
+            "Type": "album",
+            "URI": "Genesis/Invisible Touch"
+        },
+        {
+            "ID": "0004164599",
+            "Name": "Gin Blossoms - Congratulations I'm Sorry",
+            "Type": "album",
+            "URI": "Gin Blossoms/Congratulations I'm Sorry"
+        },
+        {
+            "ID": "0004164608",
+            "Name": "Gin Blossoms - New Miserable Experience",
+            "Type": "album",
+            "URI": "Gin Blossoms/New Miserable Experience"
+        },
+        {
+            "ID": "0004164621",
+            "Name": "Goo Goo Dolls - Ego, Opinion, Art & Commerce",
+            "Type": "album",
+            "URI": "Goo Goo Dolls/Ego, Opinion, Art & Commerce"
+        },
+        {
+            "ID": "0004164643",
+            "Name": "Gordon Lightfoot - Gord's Gold",
+            "Type": "album",
+            "URI": "Gordon Lightfoot/Gord's Gold"
+        },
+        {
+            "ID": "0004164744",
+            "Name": "Grateful Dead - American Beauty",
+            "Type": "album",
+            "URI": "Grateful Dead/American Beauty"
+        },
+        {
+            "ID": "0000000105",
+            "Name": "Grateful Dead - In the Dark",
+            "Type": "album",
+            "URI": "Grateful Dead/In the Dark"
+        },
+        {
+            "ID": "0004164440",
+            "Name": "Green Day - American Idiot",
+            "Type": "album",
+            "URI": "Green Day/American Idiot"
+        },
+        {
+            "ID": "0004164461",
+            "Name": "Green Day - Dookie",
+            "Type": "album",
+            "URI": "Green Day/Dookie"
+        },
+        {
+            "ID": "0000000108",
+            "Name": "Green Day - Awesome as F--k",
+            "Type": "album",
+            "URI": "Green Day/Awesome as F--k"
+        },
+        {
+            "ID": "0000000109",
+            "Name": "Habib Koite & Bamada - Muso Ko",
+            "Type": "album",
+            "URI": "Habib Koite & Bamada/Muso Ko"
+        },
+        {
+            "ID": "0003771520",
+            "Name": "Harry Connick, Jr - 25",
+            "Type": "album",
+            "URI": "Harry Connick, Jr/25"
+        },
+        {
+            "ID": "0003771513",
+            "Name": "Harry Connick, Jr - Only You",
+            "Type": "album",
+            "URI": "Harry Connick, Jr/Only You"
+        },
+        {
+            "ID": "0000000112",
+            "Name": "Harry Connick, Jr - Songs I Heard",
+            "Type": "album",
+            "URI": "Harry Connick, Jr/Songs I Heard"
+        },
+        {
+            "ID": "0003771498",
+            "Name": "Hoodoo Gurus - Stoneage Romeos",
+            "Type": "album",
+            "URI": "Hoodoo Gurus/Stoneage Romeos"
+        },
+        {
+            "ID": "0000000114",
+            "Name": "Huey Lewis and the News - Soulsville",
+            "Type": "album",
+            "URI": "Huey Lewis and the News/Soulsville"
+        },
+        {
+            "ID": "0003771491",
+            "Name": "Jackopierce - Woman as Salvation",
+            "Type": "album",
+            "URI": "Jackopierce/Woman as Salvation"
+        },
+        {
+            "ID": "0000000116",
+            "Name": "Jacques Saccquarine - Yuuuuuuuuul",
+            "Type": "album",
+            "URI": "Jacques Saccquarine/Yuuuuuuuuul"
+        },
+        {
+            "ID": "0002974025",
+            "Name": "James - Laid",
+            "Type": "album",
+            "URI": "James/Laid"
+        },
+        {
+            "ID": "0003771469",
+            "Name": "James Taylor - Greatest Hits",
+            "Type": "album",
+            "URI": "James Taylor/Greatest Hits"
+        },
+        {
+            "ID": "0000000119",
+            "Name": "Jane's Addiction - Nothing's Shocking",
+            "Type": "album",
+            "URI": "Jane's Addiction/Nothing's Shocking"
+        },
+        {
+            "ID": "0003760664",
+            "Name": "Jane's Addiction - Ritual de lo habitual",
+            "Type": "album",
+            "URI": "Jane's Addiction/Ritual de lo habitual"
+        },
+        {
+            "ID": "0003760653",
+            "Name": "Jason Mraz - Love Is a Four Letter Word",
+            "Type": "album",
+            "URI": "Jason Mraz/Love Is a Four Letter Word"
+        },
+        {
+            "ID": "0003760642",
+            "Name": "Jewel - Spirit",
+            "Type": "album",
+            "URI": "Jewel/Spirit"
+        },
+        {
+            "ID": "0000000123",
+            "Name": "Jim Collins - Good to Great",
+            "Type": "album",
+            "URI": "Jim Collins/Good to Great"
+        },
+        {
+            "ID": "0000000124",
+            "Name": "Jimi Hendrix - Experience Hendrix - The Best of Jimi Hendrix",
+            "Type": "album",
+            "URI": "Jimi Hendrix/Experience Hendrix - The Best of Jimi Hendrix"
+        },
+        {
+            "ID": "0000000125",
+            "Name": "Jimmy Buffett - Songs You Know by Heart",
+            "Type": "album",
+            "URI": "Jimmy Buffett/Songs You Know by Heart"
+        },
+        {
+            "ID": "0000000126",
+            "Name": "Joe Satriani - Flying in a Blue Dream",
+            "Type": "album",
+            "URI": "Joe Satriani/Flying in a Blue Dream"
+        },
+        {
+            "ID": "0000000127",
+            "Name": "Joe Satriani - Live in San Francisco",
+            "Type": "album",
+            "URI": "Joe Satriani/Live in San Francisco"
+        },
+        {
+            "ID": "0000000128",
+            "Name": "Joe Satriani - Not of This Earth",
+            "Type": "album",
+            "URI": "Joe Satriani/Not of This Earth"
+        },
+        {
+            "ID": "0000000129",
+            "Name": "Joe Satriani - Surfing With the Alien",
+            "Type": "album",
+            "URI": "Joe Satriani/Surfing With the Alien"
+        },
+        {
+            "ID": "0003760631",
+            "Name": "John Denver - An Evening With John Denver",
+            "Type": "album",
+            "URI": "John Denver/An Evening With John Denver"
+        },
+        {
+            "ID": "0000000131",
+            "Name": "John Denver - Greatest Hits, Volume Two",
+            "Type": "album",
+            "URI": "John Denver/Greatest Hits, Volume Two"
+        },
+        {
+            "ID": "0000000132",
+            "Name": "John Denver - Poems, Prayers & Promises",
+            "Type": "album",
+            "URI": "John Denver/Poems, Prayers & Promises"
+        },
+        {
+            "ID": "0003760620",
+            "Name": "John Denver - Country Roads - The Very Best of John Denver",
+            "Type": "album",
+            "URI": "John Denver/Country Roads - The Very Best of John Denver"
+        },
+        {
+            "ID": "0000000134",
+            "Name": "John Denver - Rocky Mountain High - The Very Best of John Denver",
+            "Type": "album",
+            "URI": "John Denver/Rocky Mountain High - The Very Best of John Denver"
+        },
+        {
+            "ID": "0002915922",
+            "Name": "John Mayer - Heavier Things",
+            "Type": "album",
+            "URI": "John Mayer/Heavier Things"
+        },
+        {
+            "ID": "0000000136",
+            "Name": "John Mayer - Room for Squares",
+            "Type": "album",
+            "URI": "John Mayer/Room for Squares"
+        },
+        {
+            "ID": "0000000137",
+            "Name": "Karl Werne & Eddie Williams - Live at Abbey Road",
+            "Type": "album",
+            "URI": "Karl Werne & Eddie Williams/Live at Abbey Road"
+        },
+        {
+            "ID": "0000000138",
+            "Name": "Karsh Kale - Realize",
+            "Type": "album",
+            "URI": "Karsh Kale/Realize"
+        },
+        {
+            "ID": "0000000139",
+            "Name": "Kaskade - The Om Remixes",
+            "Type": "album",
+            "URI": "Kaskade/The Om Remixes"
+        },
+        {
+            "ID": "0002973961",
+            "Name": "Keane - Hopes and Fears",
+            "Type": "album",
+            "URI": "Keane/Hopes and Fears"
+        },
+        {
+            "ID": "0000000141",
+            "Name": "Kent - B-sidor 95-00",
+            "Type": "album",
+            "URI": "Kent/B-sidor 95-00"
+        },
+        {
+            "ID": "0000000142",
+            "Name": "Kent - Hagnesta Hill",
+            "Type": "album",
+            "URI": "Kent/Hagnesta Hill"
+        },
+        {
+            "ID": "0000000143",
+            "Name": "Kent - If You Were Here",
+            "Type": "album",
+            "URI": "Kent/If You Were Here"
+        },
+        {
+            "ID": "0003760609",
+            "Name": "Kent - Isola",
+            "Type": "album",
+            "URI": "Kent/Isola"
+        },
+        {
+            "ID": "0000000145",
+            "Name": "Kent - More Than Hagnesta Hill",
+            "Type": "album",
+            "URI": "Kent/More Than Hagnesta Hill"
+        },
+        {
+            "ID": "0000000146",
+            "Name": "Kent - Vapen & ammunition",
+            "Type": "album",
+            "URI": "Kent/Vapen & ammunition"
+        },
+        {
+            "ID": "0000000147",
+            "Name": "Korn - Untouchables",
+            "Type": "album",
+            "URI": "Korn/Untouchables"
+        },
+        {
+            "ID": "0000000148",
+            "Name": "Kraftwerk - Autobahn",
+            "Type": "album",
+            "URI": "Kraftwerk/Autobahn"
+        },
+        {
+            "ID": "0003760598",
+            "Name": "Kraftwerk - Radio-Activity",
+            "Type": "album",
+            "URI": "Kraftwerk/Radio-Activity"
+        },
+        {
+            "ID": "0003760587",
+            "Name": "Kraftwerk - Trans-Europe Express",
+            "Type": "album",
+            "URI": "Kraftwerk/Trans-Europe Express"
+        },
+        {
+            "ID": "0000000151",
+            "Name": "Led Zeppelin - Physical Graffiti",
+            "Type": "album",
+            "URI": "Led Zeppelin/Physical Graffiti"
+        },
+        {
+            "ID": "0003770244",
+            "Name": "Leftover Salmon - Ask the Fish",
+            "Type": "album",
+            "URI": "Leftover Salmon/Ask the Fish"
+        },
+        {
+            "ID": "0000000153",
+            "Name": "Lenny Kravitz - 5",
+            "Type": "album",
+            "URI": "Lenny Kravitz/5"
+        },
+        {
+            "ID": "0000000154",
+            "Name": "Liam Finn - Champagne in Seashells",
+            "Type": "album",
+            "URI": "Liam Finn/Champagne in Seashells"
+        },
+        {
+            "ID": "0000000155",
+            "Name": "Lindsey Ray - Goodbye From California",
+            "Type": "album",
+            "URI": "Lindsey Ray/Goodbye From California"
+        },
+        {
+            "ID": "0003770243",
+            "Name": "Linkin Park - Hybrid Theory",
+            "Type": "album",
+            "URI": "Linkin Park/Hybrid Theory"
+        },
+        {
+            "ID": "0000000157",
+            "Name": "Live - Secret Samadhi",
+            "Type": "album",
+            "URI": "Live/Secret Samadhi"
+        },
+        {
+            "ID": "0003770222",
+            "Name": "Live - Throwing Copper",
+            "Type": "album",
+            "URI": "Live/Throwing Copper"
+        },
+        {
+            "ID": "0003770221",
+            "Name": "Living Colour - Vivid",
+            "Type": "album",
+            "URI": "Living Colour/Vivid"
+        },
+        {
+            "ID": "0000000160",
+            "Name": "London Philharmonic Orchestra - Us and Them Symphonic Pink Floyd",
+            "Type": "album",
+            "URI": "London Philharmonic Orchestra/Us and Them Symphonic Pink Floyd"
+        },
+        {
+            "ID": "0003770200",
+            "Name": "Los Straitjackets - Viva! Los Straitjackets",
+            "Type": "album",
+            "URI": "Los Straitjackets/Viva! Los Straitjackets"
+        },
+        {
+            "ID": "0000000162",
+            "Name": "Luciana Souza - Duos II",
+            "Type": "album",
+            "URI": "Luciana Souza/Duos II"
+        },
+        {
+            "ID": "0000000163",
+            "Name": "Ludwig van Beethoven - The Best of Beethoven",
+            "Type": "album",
+            "URI": "Ludwig van Beethoven/The Best of Beethoven"
+        },
+        {
+            "ID": "0003770199",
+            "Name": "Luscious Jackson - Fever In Fever Out",
+            "Type": "album",
+            "URI": "Luscious Jackson/Fever In Fever Out"
+        },
+        {
+            "ID": "0000000165",
+            "Name": "M83 - Hurry Up, We're Dreaming",
+            "Type": "album",
+            "URI": "M83/Hurry Up, We're Dreaming"
+        },
+        {
+            "ID": "0003770177",
+            "Name": "Madness - 7",
+            "Type": "album",
+            "URI": "Madness/7"
+        },
+        {
+            "ID": "0003466789",
+            "Name": "Madness - Absolutely",
+            "Type": "album",
+            "URI": "Madness/Absolutely"
+        },
+        {
+            "ID": "0003466804",
+            "Name": "Madness - The Rise & Fall",
+            "Type": "album",
+            "URI": "Madness/The Rise & Fall"
+        },
+        {
+            "ID": "0000000169",
+            "Name": "Madness - One Step Beyond..",
+            "Type": "album",
+            "URI": "Madness/One Step Beyond.."
+        },
+        {
+            "ID": "0004243792",
+            "Name": "Mark Whitfield - True Blue",
+            "Type": "album",
+            "URI": "Mark Whitfield/True Blue"
+        },
+        {
+            "ID": "0000000171",
+            "Name": "Matchbox Twenty - Mad Season",
+            "Type": "album",
+            "URI": "Matchbox Twenty/Mad Season"
+        },
+        {
+            "ID": "0004243795",
+            "Name": "Matthew Sweet - Girlfriend",
+            "Type": "album",
+            "URI": "Matthew Sweet/Girlfriend"
+        },
+        {
+            "ID": "0000000173",
+            "Name": "Matthew Sweet - Modern Art",
+            "Type": "album",
+            "URI": "Matthew Sweet/Modern Art"
+        },
+        {
+            "ID": "0002974038",
+            "Name": "Matthew Sweet and Susanna Hoffs - Under the Covers, Vol. 1",
+            "Type": "album",
+            "URI": "Matthew Sweet and Susanna Hoffs/Under the Covers, Vol. 1"
+        },
+        {
+            "ID": "0004132935",
+            "Name": "Meat Puppets - No Joke!",
+            "Type": "album",
+            "URI": "Meat Puppets/No Joke!"
+        },
+        {
+            "ID": "0004132922",
+            "Name": "Men at Work - Contraband - The Best of Men at Work",
+            "Type": "album",
+            "URI": "Men at Work/Contraband - The Best of Men at Work"
+        },
+        {
+            "ID": "0004132913",
+            "Name": "Michael Hedges - Live on the Double Planet",
+            "Type": "album",
+            "URI": "Michael Hedges/Live on the Double Planet"
+        },
+        {
+            "ID": "0000000178",
+            "Name": "Morrissey - Beethoven Was Deaf",
+            "Type": "album",
+            "URI": "Morrissey/Beethoven Was Deaf"
+        },
+        {
+            "ID": "0004132900",
+            "Name": "Mutual Admiration Society - Mutual Admiration Society",
+            "Type": "album",
+            "URI": "Mutual Admiration Society/Mutual Admiration Society"
+        },
+        {
+            "ID": "0000000180",
+            "Name": "Nanci Griffith - Flyer",
+            "Type": "album",
+            "URI": "Nanci Griffith/Flyer"
+        },
+        {
+            "ID": "0000000181",
+            "Name": "Naxatras - EP",
+            "Type": "album",
+            "URI": "Naxatras/EP"
+        },
+        {
+            "ID": "0000000182",
+            "Name": "Neil Young - Decade",
+            "Type": "album",
+            "URI": "Neil Young/Decade"
+        },
+        {
+            "ID": "0000000183",
+            "Name": "Neil Young - Harvest",
+            "Type": "album",
+            "URI": "Neil Young/Harvest"
+        },
+        {
+            "ID": "0000000184",
+            "Name": "Neil Young - Harvest Moon",
+            "Type": "album",
+            "URI": "Neil Young/Harvest Moon"
+        },
+        {
+            "ID": "0004132891",
+            "Name": "Neil Young - Live at Massey Hall 1971",
+            "Type": "album",
+            "URI": "Neil Young/Live at Massey Hall 1971"
+        },
+        {
+            "ID": "0004132878",
+            "Name": "Nickelback - Silver Side Up",
+            "Type": "album",
+            "URI": "Nickelback/Silver Side Up"
+        },
+        {
+            "ID": "0000000187",
+            "Name": "Nickelback - The State",
+            "Type": "album",
+            "URI": "Nickelback/The State"
+        },
+        {
+            "ID": "0004132869",
+            "Name": "Nine Inch Nails - Broken",
+            "Type": "album",
+            "URI": "Nine Inch Nails/Broken"
+        },
+        {
+            "ID": "0004139549",
+            "Name": "Nine Inch Nails - Closer to God",
+            "Type": "album",
+            "URI": "Nine Inch Nails/Closer to God"
+        },
+        {
+            "ID": "0004139532",
+            "Name": "Nine Inch Nails - Fixed",
+            "Type": "album",
+            "URI": "Nine Inch Nails/Fixed"
+        },
+        {
+            "ID": "0004139527",
+            "Name": "Nine Inch Nails - Pretty Hate Machine",
+            "Type": "album",
+            "URI": "Nine Inch Nails/Pretty Hate Machine"
+        },
+        {
+            "ID": "0004139505",
+            "Name": "Nine Inch Nails - The Fragile",
+            "Type": "album",
+            "URI": "Nine Inch Nails/The Fragile"
+        },
+        {
+            "ID": "0004139488",
+            "Name": "Nirvana - In Utero",
+            "Type": "album",
+            "URI": "Nirvana/In Utero"
+        },
+        {
+            "ID": "0004139483",
+            "Name": "Nirvana - MTV Unplugged in New York",
+            "Type": "album",
+            "URI": "Nirvana/MTV Unplugged in New York"
+        },
+        {
+            "ID": "0000000195",
+            "Name": "Nirvana - Nevermind",
+            "Type": "album",
+            "URI": "Nirvana/Nevermind"
+        },
+        {
+            "ID": "0002973809",
+            "Name": "Nirvana - Nevermind (deluxe edition)",
+            "Type": "album",
+            "URI": "Nirvana/Nevermind (deluxe edition)"
+        },
+        {
+            "ID": "0000000197",
+            "Name": "Nirvana - 1993-11-14 Under the Milky Way New York Coliseum, New York, NY, USA",
+            "Type": "album",
+            "URI": "Nirvana/1993-11-14 Under the Milky Way New York Coliseum, New York, NY, USA"
+        },
+        {
+            "ID": "0004139466",
+            "Name": "No Doubt - Tragic Kingdom",
+            "Type": "album",
+            "URI": "No Doubt/Tragic Kingdom"
+        },
+        {
+            "ID": "0004164484",
+            "Name": "Oasis - Definitely Maybe",
+            "Type": "album",
+            "URI": "Oasis/Definitely Maybe"
+        },
+        {
+            "ID": "0004164462",
+            "Name": "Oasis - Don't Believe the Truth",
+            "Type": "album",
+            "URI": "Oasis/Don't Believe the Truth"
+        },
+        {
+            "ID": "0004018966",
+            "Name": "Oasis - Stop the Clocks",
+            "Type": "album",
+            "URI": "Oasis/Stop the Clocks"
+        },
+        {
+            "ID": "0004019302",
+            "Name": "Oasis - (What's the Story) Morning Glory",
+            "Type": "album",
+            "URI": "Oasis/(What's the Story) Morning Glory"
+        },
+        {
+            "ID": "0000000203",
+            "Name": "Otis Redding - The Very Best of Otis Redding",
+            "Type": "album",
+            "URI": "Otis Redding/The Very Best of Otis Redding"
+        },
+        {
+            "ID": "0000000204",
+            "Name": "Ozzy Osbourne - No More Tears",
+            "Type": "album",
+            "URI": "Ozzy Osbourne/No More Tears"
+        },
+        {
+            "ID": "0000000205",
+            "Name": "Parts & Labor - Constant Future",
+            "Type": "album",
+            "URI": "Parts & Labor/Constant Future"
+        },
+        {
+            "ID": "0000000206",
+            "Name": "Pat McGee - From the Wood",
+            "Type": "album",
+            "URI": "Pat McGee/From the Wood"
+        },
+        {
+            "ID": "0000000207",
+            "Name": "Pat McGee Band - Revel",
+            "Type": "album",
+            "URI": "Pat McGee Band/Revel"
+        },
+        {
+            "ID": "0004019280",
+            "Name": "Pearl Jam - Backspacer",
+            "Type": "album",
+            "URI": "Pearl Jam/Backspacer"
+        },
+        {
+            "ID": "0000000209",
+            "Name": "Pearl Jam - Ten",
+            "Type": "album",
+            "URI": "Pearl Jam/Ten"
+        },
+        {
+            "ID": "0004026246",
+            "Name": "Pearl Jam - Vitalogy",
+            "Type": "album",
+            "URI": "Pearl Jam/Vitalogy"
+        },
+        {
+            "ID": "0000000211",
+            "Name": "Pearl Jam - 2003-07-09- New York, NY, USA",
+            "Type": "album",
+            "URI": "Pearl Jam/2003-07-09- New York, NY, USA"
+        },
+        {
+            "ID": "0000000212",
+            "Name": "People Under the Stairs - The Om Years",
+            "Type": "album",
+            "URI": "People Under the Stairs/The Om Years"
+        },
+        {
+            "ID": "0004022453",
+            "Name": "Perry Como - Greatest Christmas Songs",
+            "Type": "album",
+            "URI": "Perry Como/Greatest Christmas Songs"
+        },
+        {
+            "ID": "0000000214",
+            "Name": "Pet Shop Boys - Release",
+            "Type": "album",
+            "URI": "Pet Shop Boys/Release"
+        },
+        {
+            "ID": "0000000215",
+            "Name": "Phish - Farmhouse",
+            "Type": "album",
+            "URI": "Phish/Farmhouse"
+        },
+        {
+            "ID": "0000000216",
+            "Name": "Phish - Hoist",
+            "Type": "album",
+            "URI": "Phish/Hoist"
+        },
+        {
+            "ID": "0000000217",
+            "Name": "Phish - Junta",
+            "Type": "album",
+            "URI": "Phish/Junta"
+        },
+        {
+            "ID": "0000000218",
+            "Name": "Pink Floyd - A Momentary Lapse of Reason",
+            "Type": "album",
+            "URI": "Pink Floyd/A Momentary Lapse of Reason"
+        },
+        {
+            "ID": "0000000219",
+            "Name": "Pink Floyd - A Saucerful of Secrets",
+            "Type": "album",
+            "URI": "Pink Floyd/A Saucerful of Secrets"
+        },
+        {
+            "ID": "0000000220",
+            "Name": "Pink Floyd - Animals",
+            "Type": "album",
+            "URI": "Pink Floyd/Animals"
+        },
+        {
+            "ID": "0000000221",
+            "Name": "Pink Floyd - Echoes - The Best of Pink Floyd",
+            "Type": "album",
+            "URI": "Pink Floyd/Echoes - The Best of Pink Floyd"
+        },
+        {
+            "ID": "0000000222",
+            "Name": "Pink Floyd - Meddle",
+            "Type": "album",
+            "URI": "Pink Floyd/Meddle"
+        },
+        {
+            "ID": "0000000223",
+            "Name": "Pink Floyd - More",
+            "Type": "album",
+            "URI": "Pink Floyd/More"
+        },
+        {
+            "ID": "0000000224",
+            "Name": "Pink Floyd - The Division Bell",
+            "Type": "album",
+            "URI": "Pink Floyd/The Division Bell"
+        },
+        {
+            "ID": "0004010022",
+            "Name": "Pink Floyd - The Final Cut",
+            "Type": "album",
+            "URI": "Pink Floyd/The Final Cut"
+        },
+        {
+            "ID": "0002973981",
+            "Name": "Pink Floyd - The Wall",
+            "Type": "album",
+            "URI": "Pink Floyd/The Wall"
+        },
+        {
+            "ID": "0000000227",
+            "Name": "Pink Floyd - Is There Anybody Out There - The Wall Live - 1980-1981",
+            "Type": "album",
+            "URI": "Pink Floyd/Is There Anybody Out There - The Wall Live - 1980-1981"
+        },
+        {
+            "ID": "0004010283",
+            "Name": "PJ Harvey - 4-Track Demos",
+            "Type": "album",
+            "URI": "PJ Harvey/4-Track Demos"
+        },
+        {
+            "ID": "0004010290",
+            "Name": "PJ Harvey - Rid of Me",
+            "Type": "album",
+            "URI": "PJ Harvey/Rid of Me"
+        },
+        {
+            "ID": "0004167796",
+            "Name": "Porno for Pyros - Porno for Pyros",
+            "Type": "album",
+            "URI": "Porno for Pyros/Porno for Pyros"
+        },
+        {
+            "ID": "0004167811",
+            "Name": "Portishead - Dummy",
+            "Type": "album",
+            "URI": "Portishead/Dummy"
+        },
+        {
+            "ID": "0004149549",
+            "Name": "Portishead - Glory Times",
+            "Type": "album",
+            "URI": "Portishead/Glory Times"
+        },
+        {
+            "ID": "0004149833",
+            "Name": "Portishead - Portishead",
+            "Type": "album",
+            "URI": "Portishead/Portishead"
+        },
+        {
+            "ID": "0004149834",
+            "Name": "Queen - A Night at the Opera",
+            "Type": "album",
+            "URI": "Queen/A Night at the Opera"
+        },
+        {
+            "ID": "0004149855",
+            "Name": "R.E.M_ - Accelerate",
+            "Type": "album",
+            "URI": "R.E.M_/Accelerate"
+        },
+        {
+            "ID": "0000000236",
+            "Name": "R.E.M_ - Live",
+            "Type": "album",
+            "URI": "R.E.M_/Live"
+        },
+        {
+            "ID": "0000000237",
+            "Name": "R.E.M_ - Reckoning",
+            "Type": "album",
+            "URI": "R.E.M_/Reckoning"
+        },
+        {
+            "ID": "0000000238",
+            "Name": "R.E.M_ - Up",
+            "Type": "album",
+            "URI": "R.E.M_/Up"
+        },
+        {
+            "ID": "0004022380",
+            "Name": "Radiohead - Amnesiac",
+            "Type": "album",
+            "URI": "Radiohead/Amnesiac"
+        },
+        {
+            "ID": "0004026467",
+            "Name": "Radiohead - In Rainbows",
+            "Type": "album",
+            "URI": "Radiohead/In Rainbows"
+        },
+        {
+            "ID": "0004026219",
+            "Name": "Radiohead - OK Computer",
+            "Type": "album",
+            "URI": "Radiohead/OK Computer"
+        },
+        {
+            "ID": "0004026240",
+            "Name": "Radiohead - Pablo Honey",
+            "Type": "album",
+            "URI": "Radiohead/Pablo Honey"
+        },
+        {
+            "ID": "0004026484",
+            "Name": "Ramones - Ramones Mania",
+            "Type": "album",
+            "URI": "Ramones/Ramones Mania"
+        },
+        {
+            "ID": "0004049841",
+            "Name": "Ray LaMontagne - Trouble",
+            "Type": "album",
+            "URI": "Ray LaMontagne/Trouble"
+        },
+        {
+            "ID": "0004057482",
+            "Name": "Red Hot Chili Peppers - Blood Sugar Sex Magik",
+            "Type": "album",
+            "URI": "Red Hot Chili Peppers/Blood Sugar Sex Magik"
+        },
+        {
+            "ID": "0004057504",
+            "Name": "Red Hot Chili Peppers - Californication",
+            "Type": "album",
+            "URI": "Red Hot Chili Peppers/Californication"
+        },
+        {
+            "ID": "0000000247",
+            "Name": "Red Hot Chili Peppers - Greatest Hits",
+            "Type": "album",
+            "URI": "Red Hot Chili Peppers/Greatest Hits"
+        },
+        {
+            "ID": "0000000248",
+            "Name": "Red Hot Chili Peppers - Greatest Hits and Videos",
+            "Type": "album",
+            "URI": "Red Hot Chili Peppers/Greatest Hits and Videos"
+        },
+        {
+            "ID": "0002973800",
+            "Name": "Red Hot Chili Peppers - Mother's Milk",
+            "Type": "album",
+            "URI": "Red Hot Chili Peppers/Mother's Milk"
+        },
+        {
+            "ID": "0004046589",
+            "Name": "Red Hot Chili Peppers - The Uplift Mofo Party Plan",
+            "Type": "album",
+            "URI": "Red Hot Chili Peppers/The Uplift Mofo Party Plan"
+        },
+        {
+            "ID": "0004044283",
+            "Name": "Red Hot Chili Peppers - What Hits!",
+            "Type": "album",
+            "URI": "Red Hot Chili Peppers/What Hits!"
+        },
+        {
+            "ID": "0000000252",
+            "Name": "Rob Conery, Scott Hanselman - This Developer's Life",
+            "Type": "album",
+            "URI": "Rob Conery, Scott Hanselman/This Developer's Life"
+        },
+        {
+            "ID": "0000000253",
+            "Name": "Rush - Chronicles",
+            "Type": "album",
+            "URI": "Rush/Chronicles"
+        },
+        {
+            "ID": "0000000254",
+            "Name": "Rush - Different Stages Live",
+            "Type": "album",
+            "URI": "Rush/Different Stages Live"
+        },
+        {
+            "ID": "0000000255",
+            "Name": "Rush - Retrospective II - 1981-1987",
+            "Type": "album",
+            "URI": "Rush/Retrospective II - 1981-1987"
+        },
+        {
+            "ID": "0004043974",
+            "Name": "Rusted Root - Welcome to My Party",
+            "Type": "album",
+            "URI": "Rusted Root/Welcome to My Party"
+        },
+        {
+            "ID": "0000000257",
+            "Name": "Ryan Adams - Easy Tiger",
+            "Type": "album",
+            "URI": "Ryan Adams/Easy Tiger"
+        },
+        {
+            "ID": "0000000258",
+            "Name": "Samantha James - Rise",
+            "Type": "album",
+            "URI": "Samantha James/Rise"
+        },
+        {
+            "ID": "0000000259",
+            "Name": "Sarah Vaughan and Her Trio - Sarah Vaughan at Mister Kelly's",
+            "Type": "album",
+            "URI": "Sarah Vaughan and Her Trio/Sarah Vaughan at Mister Kelly's"
+        },
+        {
+            "ID": "0000000260",
+            "Name": "Seal - Seal",
+            "Type": "album",
+            "URI": "Seal/Seal"
+        },
+        {
+            "ID": "0000000261",
+            "Name": "Seven Mary Three - Rock Crown",
+            "Type": "album",
+            "URI": "Seven Mary Three/Rock Crown"
+        },
+        {
+            "ID": "0000000262",
+            "Name": "Sheryl Crow - The Globe Sessions",
+            "Type": "album",
+            "URI": "Sheryl Crow/The Globe Sessions"
+        },
+        {
+            "ID": "0000000263",
+            "Name": "Silkworm - The Thirsty Developer - Podcast",
+            "Type": "album",
+            "URI": "Silkworm/The Thirsty Developer - Podcast"
+        },
+        {
+            "ID": "0004043957",
+            "Name": "Simon & Garfunkel - Simon and Garfunkel's Greatest Hits",
+            "Type": "album",
+            "URI": "Simon & Garfunkel/Simon and Garfunkel's Greatest Hits"
+        },
+        {
+            "ID": "0000000265",
+            "Name": "Simon & Garfunkel - The Concert in Central Park",
+            "Type": "album",
+            "URI": "Simon & Garfunkel/The Concert in Central Park"
+        },
+        {
+            "ID": "0000000266",
+            "Name": "Simple Minds - Good News From the Next World",
+            "Type": "album",
+            "URI": "Simple Minds/Good News From the Next World"
+        },
+        {
+            "ID": "0000000267",
+            "Name": "Simple Minds - Once Upon a Time",
+            "Type": "album",
+            "URI": "Simple Minds/Once Upon a Time"
+        },
+        {
+            "ID": "0000000268",
+            "Name": "Sister Hazel - Somewhere More Familiar",
+            "Type": "album",
+            "URI": "Sister Hazel/Somewhere More Familiar"
+        },
+        {
+            "ID": "0000000269",
+            "Name": "Sly & Robbie - Dub Rockers Delight",
+            "Type": "album",
+            "URI": "Sly & Robbie/Dub Rockers Delight"
+        },
+        {
+            "ID": "0004043952",
+            "Name": "Smashing Pumpkins - Gish",
+            "Type": "album",
+            "URI": "Smashing Pumpkins/Gish"
+        },
+        {
+            "ID": "0004043935",
+            "Name": "Smashing Pumpkins - Pisces Iscariot",
+            "Type": "album",
+            "URI": "Smashing Pumpkins/Pisces Iscariot"
+        },
+        {
+            "ID": "0004043930",
+            "Name": "Smashing Pumpkins - Zeitgeist",
+            "Type": "album",
+            "URI": "Smashing Pumpkins/Zeitgeist"
+        },
+        {
+            "ID": "0004224001",
+            "Name": "Squeeze - Frank",
+            "Type": "album",
+            "URI": "Squeeze/Frank"
+        },
+        {
+            "ID": "0000000274",
+            "Name": "Steel Pulse - Reggae Greats",
+            "Type": "album",
+            "URI": "Steel Pulse/Reggae Greats"
+        },
+        {
+            "ID": "0000000275",
+            "Name": "Stephen Kellogg and the Sixers - Bulletproof Heart",
+            "Type": "album",
+            "URI": "Stephen Kellogg and the Sixers/Bulletproof Heart"
+        },
+        {
+            "ID": "0000000276",
+            "Name": "Stevie Nicks - The Other Side of the Mirror",
+            "Type": "album",
+            "URI": "Stevie Nicks/The Other Side of the Mirror"
+        },
+        {
+            "ID": "0000000277",
+            "Name": "Stevie Ray Vaughan and Double Trouble - S.R.V.",
+            "Type": "album",
+            "URI": "Stevie Ray Vaughan and Double Trouble/S.R.V."
+        },
+        {
+            "ID": "0004223996",
+            "Name": "Stone Temple Pilots - Core",
+            "Type": "album",
+            "URI": "Stone Temple Pilots/Core"
+        },
+        {
+            "ID": "0000000279",
+            "Name": "Styx - Greatest Hits",
+            "Type": "album",
+            "URI": "Styx/Greatest Hits"
+        },
+        {
+            "ID": "0000000280",
+            "Name": "Styx - Pieces of Eight",
+            "Type": "album",
+            "URI": "Styx/Pieces of Eight"
+        },
+        {
+            "ID": "0000000281",
+            "Name": "T. Rex - Electric Warrior",
+            "Type": "album",
+            "URI": "T. Rex/Electric Warrior"
+        },
+        {
+            "ID": "0000000282",
+            "Name": "Taylor Swift feat. The Civil Wars - Safe & Sound (from The Hunger Games Soundtrack)",
+            "Type": "album",
+            "URI": "Taylor Swift feat. The Civil Wars/Safe & Sound (from The Hunger Games Soundtrack)"
+        },
+        {
+            "ID": "0000000283",
+            "Name": "The Afghan Whigs - Black Love",
+            "Type": "album",
+            "URI": "The Afghan Whigs/Black Love"
+        },
+        {
+            "ID": "0000000284",
+            "Name": "The Alan Parsons Project - Gaudi",
+            "Type": "album",
+            "URI": "The Alan Parsons Project/Gaudi"
+        },
+        {
+            "ID": "0000000285",
+            "Name": "The Alan Parsons Project - I Robot",
+            "Type": "album",
+            "URI": "The Alan Parsons Project/I Robot"
+        },
+        {
+            "ID": "0000000286",
+            "Name": "The Baby Einstein Music Box Orchestra - Baby Mozart",
+            "Type": "album",
+            "URI": "The Baby Einstein Music Box Orchestra/Baby Mozart"
+        },
+        {
+            "ID": "0004223979",
+            "Name": "The Byrds - The Byrds Greatest Hits",
+            "Type": "album",
+            "URI": "The Byrds/The Byrds Greatest Hits"
+        },
+        {
+            "ID": "0004223974",
+            "Name": "The Charlatans - Between 10th and 11th",
+            "Type": "album",
+            "URI": "The Charlatans/Between 10th and 11th"
+        },
+        {
+            "ID": "0000000289",
+            "Name": "The Clash - The Essential Clash",
+            "Type": "album",
+            "URI": "The Clash/The Essential Clash"
+        },
+        {
+            "ID": "0004223957",
+            "Name": "The Clash - The Story of the Clash, Volume 1",
+            "Type": "album",
+            "URI": "The Clash/The Story of the Clash, Volume 1"
+        },
+        {
+            "ID": "0000000291",
+            "Name": "The Clash - From Here to Eternity - Live",
+            "Type": "album",
+            "URI": "The Clash/From Here to Eternity - Live"
+        },
+        {
+            "ID": "0000000292",
+            "Name": "The Connells - Boylan Heights",
+            "Type": "album",
+            "URI": "The Connells/Boylan Heights"
+        },
+        {
+            "ID": "0000000293",
+            "Name": "The Connells - Ring",
+            "Type": "album",
+            "URI": "The Connells/Ring"
+        },
+        {
+            "ID": "0000000294",
+            "Name": "The Cranberries - Bury the Hatchet",
+            "Type": "album",
+            "URI": "The Cranberries/Bury the Hatchet"
+        },
+        {
+            "ID": "0000000295",
+            "Name": "The Cranberries - No Need to Argue",
+            "Type": "album",
+            "URI": "The Cranberries/No Need to Argue"
+        },
+        {
+            "ID": "0000000296",
+            "Name": "The Cranberries - To the Faithful Departed",
+            "Type": "album",
+            "URI": "The Cranberries/To the Faithful Departed"
+        },
+        {
+            "ID": "0000000297",
+            "Name": "The Cranberries - Everybody Else Is Doing It, So Why Can't We.",
+            "Type": "album",
+            "URI": "The Cranberries/Everybody Else Is Doing It, So Why Can't We."
+        },
+        {
+            "ID": "0000000298",
+            "Name": "The Cult - Beyond Good and Evil",
+            "Type": "album",
+            "URI": "The Cult/Beyond Good and Evil"
+        },
+        {
+            "ID": "0000051860",
+            "Name": "The Cult - Ceremony",
+            "Type": "album",
+            "URI": "The Cult/Ceremony"
+        },
+        {
+            "ID": "0004223952",
+            "Name": "The Cure - Disintegration",
+            "Type": "album",
+            "URI": "The Cure/Disintegration"
+        },
+        {
+            "ID": "0003770234",
+            "Name": "The Cure - Kiss Me Kiss Me Kiss Me",
+            "Type": "album",
+            "URI": "The Cure/Kiss Me Kiss Me Kiss Me"
+        },
+        {
+            "ID": "0003770231",
+            "Name": "The Cure - Staring at the Sea - The Singles",
+            "Type": "album",
+            "URI": "The Cure/Staring at the Sea - The Singles"
+        },
+        {
+            "ID": "0003770212",
+            "Name": "The Decemberists - Her Majesty the Decemberists",
+            "Type": "album",
+            "URI": "The Decemberists/Her Majesty the Decemberists"
+        },
+        {
+            "ID": "0003770209",
+            "Name": "The Decemberists - The Crane Wife",
+            "Type": "album",
+            "URI": "The Decemberists/The Crane Wife"
+        },
+        {
+            "ID": "0000051818",
+            "Name": "The Decemberists - The Hazards Of Love",
+            "Type": "album",
+            "URI": "The Decemberists/The Hazards Of Love"
+        },
+        {
+            "ID": "0000051814",
+            "Name": "The Decemberists - The King Is Dead",
+            "Type": "album",
+            "URI": "The Decemberists/The King Is Dead"
+        },
+        {
+            "ID": "0000000307",
+            "Name": "The Dude of Life and Phish - Crimes of the Mind",
+            "Type": "album",
+            "URI": "The Dude of Life and Phish/Crimes of the Mind"
+        },
+        {
+            "ID": "0000051792",
+            "Name": "The Feelies - Only Life",
+            "Type": "album",
+            "URI": "The Feelies/Only Life"
+        },
+        {
+            "ID": "0000000309",
+            "Name": "The Goo Goo Dolls - Dizzy Up the Girl",
+            "Type": "album",
+            "URI": "The Goo Goo Dolls/Dizzy Up the Girl"
+        },
+        {
+            "ID": "0000000310",
+            "Name": "The Guess Who - The Best of The Guess Who",
+            "Type": "album",
+            "URI": "The Guess Who/The Best of The Guess Who"
+        },
+        {
+            "ID": "0000000311",
+            "Name": "The Himalayans - She Likes the Weather",
+            "Type": "album",
+            "URI": "The Himalayans/She Likes the Weather"
+        },
+        {
+            "ID": "0000000312",
+            "Name": "The Jam - All Mod Cons - Sound Affects",
+            "Type": "album",
+            "URI": "The Jam/All Mod Cons - Sound Affects"
+        },
+        {
+            "ID": "0000000313",
+            "Name": "The Juliana Hatfield Three - Become What You Are",
+            "Type": "album",
+            "URI": "The Juliana Hatfield Three/Become What You Are"
+        },
+        {
+            "ID": "0000051773",
+            "Name": "The Killers - Hot Fuss",
+            "Type": "album",
+            "URI": "The Killers/Hot Fuss"
+        },
+        {
+            "ID": "0000051813",
+            "Name": "The Killers - Sam's Town",
+            "Type": "album",
+            "URI": "The Killers/Sam's Town"
+        },
+        {
+            "ID": "0000051796",
+            "Name": "The Lemonheads - It's a Shame About Ray",
+            "Type": "album",
+            "URI": "The Lemonheads/It's a Shame About Ray"
+        },
+        {
+            "ID": "0000000317",
+            "Name": "The Naked and Famous - Young Blood",
+            "Type": "album",
+            "URI": "The Naked and Famous/Young Blood"
+        },
+        {
+            "ID": "0000000318",
+            "Name": "The Outfield - Big Innings - Best of The Outfield",
+            "Type": "album",
+            "URI": "The Outfield/Big Innings - Best of The Outfield"
+        },
+        {
+            "ID": "0000000319",
+            "Name": "The Partridge Family - Greatest Hits",
+            "Type": "album",
+            "URI": "The Partridge Family/Greatest Hits"
+        },
+        {
+            "ID": "0000000320",
+            "Name": "The Police - Ghost in the Machine",
+            "Type": "album",
+            "URI": "The Police/Ghost in the Machine"
+        },
+        {
+            "ID": "0000000321",
+            "Name": "The Police - Reggatta de Blanc",
+            "Type": "album",
+            "URI": "The Police/Reggatta de Blanc"
+        },
+        {
+            "ID": "0000000322",
+            "Name": "The Police - Synchronicity",
+            "Type": "album",
+            "URI": "The Police/Synchronicity"
+        },
+        {
+            "ID": "0000000323",
+            "Name": "The Police - Zenyatta Mondatta",
+            "Type": "album",
+            "URI": "The Police/Zenyatta Mondatta"
+        },
+        {
+            "ID": "0000000324",
+            "Name": "The Posies - Every Kind of Light",
+            "Type": "album",
+            "URI": "The Posies/Every Kind of Light"
+        },
+        {
+            "ID": "0000051791",
+            "Name": "The Rat Pack - Christmas With the Rat Pack",
+            "Type": "album",
+            "URI": "The Rat Pack/Christmas With the Rat Pack"
+        },
+        {
+            "ID": "0000000326",
+            "Name": "The Rentals - Return of The Rentals",
+            "Type": "album",
+            "URI": "The Rentals/Return of The Rentals"
+        },
+        {
+            "ID": "0000000327",
+            "Name": "The Rolling Stones - Brussels Affair (Live 1973)",
+            "Type": "album",
+            "URI": "The Rolling Stones/Brussels Affair (Live 1973)"
+        },
+        {
+            "ID": "0000000328",
+            "Name": "The Rolling Stones - Emotional Rescue",
+            "Type": "album",
+            "URI": "The Rolling Stones/Emotional Rescue"
+        },
+        {
+            "ID": "0000000329",
+            "Name": "The Rolling Stones - Forty Licks",
+            "Type": "album",
+            "URI": "The Rolling Stones/Forty Licks"
+        },
+        {
+            "ID": "0000218048",
+            "Name": "The Rolling Stones - It's Only Rock 'n Roll",
+            "Type": "album",
+            "URI": "The Rolling Stones/It's Only Rock 'n Roll"
+        },
+        {
+            "ID": "0000000331",
+            "Name": "The Rolling Stones - L.A. Friday (Live 1975)",
+            "Type": "album",
+            "URI": "The Rolling Stones/L.A. Friday (Live 1975)"
+        },
+        {
+            "ID": "0000000332",
+            "Name": "The Rolling Stones - Let It Bleed",
+            "Type": "album",
+            "URI": "The Rolling Stones/Let It Bleed"
+        },
+        {
+            "ID": "0000000333",
+            "Name": "The Rolling Stones - Some Girls",
+            "Type": "album",
+            "URI": "The Rolling Stones/Some Girls"
+        },
+        {
+            "ID": "0000000334",
+            "Name": "The Rolling Stones - Tattoo You",
+            "Type": "album",
+            "URI": "The Rolling Stones/Tattoo You"
+        },
+        {
+            "ID": "0000000335",
+            "Name": "The Rolling Stones - Their Satanic Majesties Request",
+            "Type": "album",
+            "URI": "The Rolling Stones/Their Satanic Majesties Request"
+        },
+        {
+            "ID": "0000000336",
+            "Name": "The Rolling Stones - Exile on Main St.",
+            "Type": "album",
+            "URI": "The Rolling Stones/Exile on Main St."
+        },
+        {
+            "ID": "0000000337",
+            "Name": "The Rolling Stones - Singles Collection - The London Years",
+            "Type": "album",
+            "URI": "The Rolling Stones/Singles Collection - The London Years"
+        },
+        {
+            "ID": "0000000338",
+            "Name": "The Shins - Live From the Lot",
+            "Type": "album",
+            "URI": "The Shins/Live From the Lot"
+        },
+        {
+            "ID": "0000000339",
+            "Name": "The Simpsons - The Simpsons Sing the Blues",
+            "Type": "album",
+            "URI": "The Simpsons/The Simpsons Sing the Blues"
+        },
+        {
+            "ID": "0000074083",
+            "Name": "The Smashing Pumpkins - Adore",
+            "Type": "album",
+            "URI": "The Smashing Pumpkins/Adore"
+        },
+        {
+            "ID": "0000074103",
+            "Name": "The Smashing Pumpkins - Greatest Hits - Rotten Apples",
+            "Type": "album",
+            "URI": "The Smashing Pumpkins/Greatest Hits - Rotten Apples"
+        },
+        {
+            "ID": "0000074127",
+            "Name": "Machina - The Machines Of God - MACHINA_the machines of God",
+            "Type": "album",
+            "URI": "The Smashing Pumpkins/Machina - The Machines Of God/MACHINA_the machines of God"
+        },
+        {
+            "ID": "0000073080",
+            "Name": "The Smithereens - 11",
+            "Type": "album",
+            "URI": "The Smithereens/11"
+        },
+        {
+            "ID": "0000073074",
+            "Name": "The Smithereens - Green Thoughts",
+            "Type": "album",
+            "URI": "The Smithereens/Green Thoughts"
+        },
+        {
+            "ID": "0000073057",
+            "Name": "The Smiths - Meat Is Murder",
+            "Type": "album",
+            "URI": "The Smiths/Meat Is Murder"
+        },
+        {
+            "ID": "0000073052",
+            "Name": "The Smiths - The Smiths",
+            "Type": "album",
+            "URI": "The Smiths/The Smiths"
+        },
+        {
+            "ID": "0000073035",
+            "Name": "The Stone Roses - The Stone Roses",
+            "Type": "album",
+            "URI": "The Stone Roses/The Stone Roses"
+        },
+        {
+            "ID": "0000000348",
+            "Name": "The Stranglers - The UA Singles '77-'79",
+            "Type": "album",
+            "URI": "The Stranglers/The UA Singles '77-'79"
+        },
+        {
+            "ID": "0000073094",
+            "Name": "The Wallflowers - Bringing Down the Horse",
+            "Type": "album",
+            "URI": "The Wallflowers/Bringing Down the Horse"
+        },
+        {
+            "ID": "0000073083",
+            "Name": "The Weakerthans - Reunion Tour",
+            "Type": "album",
+            "URI": "The Weakerthans/Reunion Tour"
+        },
+        {
+            "ID": "0000000351",
+            "Name": "The Weepies - Be My Thrill",
+            "Type": "album",
+            "URI": "The Weepies/Be My Thrill"
+        },
+        {
+            "ID": "0000089656",
+            "Name": "The White Stripes - Elephant",
+            "Type": "album",
+            "URI": "The White Stripes/Elephant"
+        },
+        {
+            "ID": "0000089649",
+            "Name": "The White Stripes - Get Behind Me Satan",
+            "Type": "album",
+            "URI": "The White Stripes/Get Behind Me Satan"
+        },
+        {
+            "ID": "0000089675",
+            "Name": "The White Stripes - White Blood Cells",
+            "Type": "album",
+            "URI": "The White Stripes/White Blood Cells"
+        },
+        {
+            "ID": "0000089682",
+            "Name": "They Might Be Giants - Flood",
+            "Type": "album",
+            "URI": "They Might Be Giants/Flood"
+        },
+        {
+            "ID": "0000089700",
+            "Name": "Third Eye Blind - Blue",
+            "Type": "album",
+            "URI": "Third Eye Blind/Blue"
+        },
+        {
+            "ID": "0000089705",
+            "Name": "Third Eye Blind - Out of the Vein",
+            "Type": "album",
+            "URI": "Third Eye Blind/Out of the Vein"
+        },
+        {
+            "ID": "0000073078",
+            "Name": "Toad the Wet Sprocket - Dulcinea",
+            "Type": "album",
+            "URI": "Toad the Wet Sprocket/Dulcinea"
+        },
+        {
+            "ID": "0000073099",
+            "Name": "Toad the Wet Sprocket - Fear",
+            "Type": "album",
+            "URI": "Toad the Wet Sprocket/Fear"
+        },
+        {
+            "ID": "0000055452",
+            "Name": "Toad the Wet Sprocket - Pale",
+            "Type": "album",
+            "URI": "Toad the Wet Sprocket/Pale"
+        },
+        {
+            "ID": "0000055451",
+            "Name": "Tom Petty - Wildflowers",
+            "Type": "album",
+            "URI": "Tom Petty/Wildflowers"
+        },
+        {
+            "ID": "0000000362",
+            "Name": "Tom Petty & the Heartbreakers - Greatest Hits",
+            "Type": "album",
+            "URI": "Tom Petty & the Heartbreakers/Greatest Hits"
+        },
+        {
+            "ID": "0000055407",
+            "Name": "Tonic - Head on Straight",
+            "Type": "album",
+            "URI": "Tonic/Head on Straight"
+        },
+        {
+            "ID": "0000000364",
+            "Name": "Tonic - Lemon Parade",
+            "Type": "album",
+            "URI": "Tonic/Lemon Parade"
+        },
+        {
+            "ID": "0000000365",
+            "Name": "Tori Amos - Jackie's Strength",
+            "Type": "album",
+            "URI": "Tori Amos/Jackie's Strength"
+        },
+        {
+            "ID": "0000055408",
+            "Name": "Tori Amos - Under the Pink",
+            "Type": "album",
+            "URI": "Tori Amos/Under the Pink"
+        },
+        {
+            "ID": "0000000367",
+            "Name": "Train - Alive at Last",
+            "Type": "album",
+            "URI": "Train/Alive at Last"
+        },
+        {
+            "ID": "0000055429",
+            "Name": "Train - My Private Nation",
+            "Type": "album",
+            "URI": "Train/My Private Nation"
+        },
+        {
+            "ID": "0000055430",
+            "Name": "Train - Train",
+            "Type": "album",
+            "URI": "Train/Train"
+        },
+        {
+            "ID": "0000067004",
+            "Name": "Travis - Coming Around",
+            "Type": "album",
+            "URI": "Travis/Coming Around"
+        },
+        {
+            "ID": "0000000371",
+            "Name": "Travis - Good Feeling",
+            "Type": "album",
+            "URI": "Travis/Good Feeling"
+        },
+        {
+            "ID": "0000000372",
+            "Name": "Travis - Singles",
+            "Type": "album",
+            "URI": "Travis/Singles"
+        },
+        {
+            "ID": "0000066709",
+            "Name": "Travis - The Boy With No Name",
+            "Type": "album",
+            "URI": "Travis/The Boy With No Name"
+        },
+        {
+            "ID": "0013870990",
+            "Name": "Travis - The Invisible Band",
+            "Type": "album",
+            "URI": "Travis/The Invisible Band"
+        },
+        {
+            "ID": "0013870991",
+            "Name": "Travis - The Man Who",
+            "Type": "album",
+            "URI": "Travis/The Man Who"
+        },
+        {
+            "ID": "0000000376",
+            "Name": "Travis - Writing to Reach You",
+            "Type": "album",
+            "URI": "Travis/Writing to Reach You"
+        },
+        {
+            "ID": "0013870993",
+            "Name": "Tripping Daisy - Bill",
+            "Type": "album",
+            "URI": "Tripping Daisy/Bill"
+        },
+        {
+            "ID": "0013860042",
+            "Name": "Tripping Daisy - I Am an Elastic Firecracker",
+            "Type": "album",
+            "URI": "Tripping Daisy/I Am an Elastic Firecracker"
+        },
+        {
+            "ID": "0013860041",
+            "Name": "U2 - Rattle and Hum",
+            "Type": "album",
+            "URI": "U2/Rattle and Hum"
+        },
+        {
+            "ID": "0000066629",
+            "Name": "U2 - Songs of Innocence",
+            "Type": "album",
+            "URI": "U2/Songs of Innocence"
+        },
+        {
+            "ID": "0000066622",
+            "Name": "U2 - The Best of 1980-1990 & B-Sides",
+            "Type": "album",
+            "URI": "U2/The Best of 1980-1990 & B-Sides"
+        },
+        {
+            "ID": "0000066945",
+            "Name": "U2 - The Best of 1990-2000",
+            "Type": "album",
+            "URI": "U2/The Best of 1990-2000"
+        },
+        {
+            "ID": "0000066962",
+            "Name": "U2 - The Joshua Tree",
+            "Type": "album",
+            "URI": "U2/The Joshua Tree"
+        },
+        {
+            "ID": "0000066967",
+            "Name": "U2 - Under a Blood Red Sky",
+            "Type": "album",
+            "URI": "U2/Under a Blood Red Sky"
+        },
+        {
+            "ID": "0000062439",
+            "Name": "U2 - War",
+            "Type": "album",
+            "URI": "U2/War"
+        },
+        {
+            "ID": "0000000386",
+            "Name": "Various - Sample This Shit",
+            "Type": "album",
+            "URI": "Various/Sample This Shit"
+        },
+        {
+            "ID": "0000000387",
+            "Name": "Various - Timeless Christmas (Amazon MP3 Exclusive Sampler)",
+            "Type": "album",
+            "URI": "Various/Timeless Christmas (Amazon MP3 Exclusive Sampler)"
+        },
+        {
+            "ID": "0000000388",
+            "Name": "Various Artists - 1997 Pinkpop Sampler",
+            "Type": "album",
+            "URI": "Various Artists/1997 Pinkpop Sampler"
+        },
+        {
+            "ID": "0000062456",
+            "Name": "Various Artists - 40 Years - A Charlie Brown Christmas",
+            "Type": "album",
+            "URI": "Various Artists/40 Years - A Charlie Brown Christmas"
+        },
+        {
+            "ID": "0000000390",
+            "Name": "Various Artists - Chef Aid - The South Park album",
+            "Type": "album",
+            "URI": "Various Artists/Chef Aid - The South Park album"
+        },
+        {
+            "ID": "0000061505",
+            "Name": "Various Artists - Big Band Christmas",
+            "Type": "album",
+            "URI": "Various Artists/Big Band Christmas"
+        },
+        {
+            "ID": "0000061484",
+            "Name": "Various Artists - Christmas Treasures",
+            "Type": "album",
+            "URI": "Various Artists/Christmas Treasures"
+        },
+        {
+            "ID": "0000000393",
+            "Name": "Various Artists - Clueless - Original Motion Picture Soundtrack",
+            "Type": "album",
+            "URI": "Various Artists/Clueless - Original Motion Picture Soundtrack"
+        },
+        {
+            "ID": "0000000394",
+            "Name": "Various Artists - CMJ 2009 The Bands, The Music, The City, Vol. 3",
+            "Type": "album",
+            "URI": "Various Artists/CMJ 2009 The Bands, The Music, The City, Vol. 3"
+        },
+        {
+            "ID": "0000000395",
+            "Name": "Various Artists - Customer Service Week 2007",
+            "Type": "album",
+            "URI": "Various Artists/Customer Service Week 2007"
+        },
+        {
+            "ID": "0000000396",
+            "Name": "Various Artists - Dangerbird Summer Sampler",
+            "Type": "album",
+            "URI": "Various Artists/Dangerbird Summer Sampler"
+        },
+        {
+            "ID": "0000000397",
+            "Name": "Various Artists - Dazed and Confused",
+            "Type": "album",
+            "URI": "Various Artists/Dazed and Confused"
+        },
+        {
+            "ID": "0000000398",
+            "Name": "Various Artists - DGC Rarities, Volume 1",
+            "Type": "album",
+            "URI": "Various Artists/DGC Rarities, Volume 1"
+        },
+        {
+            "ID": "0000000399",
+            "Name": "Various Artists - Digital Bang - The 2010 Sub Pop Sampler for Amazon (disc 1)",
+            "Type": "album",
+            "URI": "Various Artists/Digital Bang - The 2010 Sub Pop Sampler for Amazon (disc 1)"
+        },
+        {
+            "ID": "0000000400",
+            "Name": "Various Artists - Experience Halloween - A Tunecore Music Sampler",
+            "Type": "album",
+            "URI": "Various Artists/Experience Halloween - A Tunecore Music Sampler"
+        },
+        {
+            "ID": "0000000401",
+            "Name": "Various Artists - Fall Music Sampler Burning Building Recordings 2010",
+            "Type": "album",
+            "URI": "Various Artists/Fall Music Sampler Burning Building Recordings 2010"
+        },
+        {
+            "ID": "0000000402",
+            "Name": "Various Artists - Forrest Gump - The Soundtrack",
+            "Type": "album",
+            "URI": "Various Artists/Forrest Gump - The Soundtrack"
+        },
+        {
+            "ID": "0000000403",
+            "Name": "Various Artists - Foundations Music Sampler",
+            "Type": "album",
+            "URI": "Various Artists/Foundations Music Sampler"
+        },
+        {
+            "ID": "0000000404",
+            "Name": "Various Artists - Hardly Art Label Sampler 2010",
+            "Type": "album",
+            "URI": "Various Artists/Hardly Art Label Sampler 2010"
+        },
+        {
+            "ID": "0000000405",
+            "Name": "Various Artists - Henry & Deanna's Wedding",
+            "Type": "album",
+            "URI": "Various Artists/Henry & Deanna's Wedding"
+        },
+        {
+            "ID": "0000000406",
+            "Name": "Various Artists - Henry's Summer '96",
+            "Type": "album",
+            "URI": "Various Artists/Henry's Summer '96"
+        },
+        {
+            "ID": "0000000407",
+            "Name": "Various Artists - Here Without You",
+            "Type": "album",
+            "URI": "Various Artists/Here Without You"
+        },
+        {
+            "ID": "0000000408",
+            "Name": "Various Artists - Indie Sampler",
+            "Type": "album",
+            "URI": "Various Artists/Indie Sampler"
+        },
+        {
+            "ID": "0000000409",
+            "Name": "Various Artists - Promo Only - Modern Rock Radio, August 1998",
+            "Type": "album",
+            "URI": "Various Artists/Promo Only - Modern Rock Radio, August 1998"
+        },
+        {
+            "ID": "0000000410",
+            "Name": "Various Artists - March 2010 Saddle Creek Sampler",
+            "Type": "album",
+            "URI": "Various Artists/March 2010 Saddle Creek Sampler"
+        },
+        {
+            "ID": "0000000411",
+            "Name": "Various Artists - Merge Records 2010 Digital Sampler",
+            "Type": "album",
+            "URI": "Various Artists/Merge Records 2010 Digital Sampler"
+        },
+        {
+            "ID": "0000000412",
+            "Name": "Various Artists - Mexican Summer Vol. 1",
+            "Type": "album",
+            "URI": "Various Artists/Mexican Summer Vol. 1"
+        },
+        {
+            "ID": "0000000413",
+            "Name": "Various Artists - Monster Hits, Volume 5",
+            "Type": "album",
+            "URI": "Various Artists/Monster Hits, Volume 5"
+        },
+        {
+            "ID": "0000000414",
+            "Name": "Various Artists - MTV Buzz Bin, Volume 2",
+            "Type": "album",
+            "URI": "Various Artists/MTV Buzz Bin, Volume 2"
+        },
+        {
+            "ID": "0000000415",
+            "Name": "Various Artists - Never Mind the Mainstream... The Best of MTV's 120 Minutes, Volume 1",
+            "Type": "album",
+            "URI": "Various Artists/Never Mind the Mainstream... The Best of MTV's 120 Minutes, Volume 1"
+        },
+        {
+            "ID": "0000000416",
+            "Name": "Various Artists - Reality Bites",
+            "Type": "album",
+            "URI": "Various Artists/Reality Bites"
+        },
+        {
+            "ID": "0000000417",
+            "Name": "Various Artists - Rushmore - Original Motion Picture Soundtrack",
+            "Type": "album",
+            "URI": "Various Artists/Rushmore - Original Motion Picture Soundtrack"
+        },
+        {
+            "ID": "0000000418",
+            "Name": "Various Artists - Senses Working Overtime",
+            "Type": "album",
+            "URI": "Various Artists/Senses Working Overtime"
+        },
+        {
+            "ID": "0000000419",
+            "Name": "Various Artists - So Indie It Hurts - Roir Rocks Volume Two",
+            "Type": "album",
+            "URI": "Various Artists/So Indie It Hurts - Roir Rocks Volume Two"
+        },
+        {
+            "ID": "0000000420",
+            "Name": "Various Artists - Sunset Sampler",
+            "Type": "album",
+            "URI": "Various Artists/Sunset Sampler"
+        },
+        {
+            "ID": "0000000421",
+            "Name": "Various Artists - The Crow - Original Motion Picture Soundtrack",
+            "Type": "album",
+            "URI": "Various Artists/The Crow - Original Motion Picture Soundtrack"
+        },
+        {
+            "ID": "0000000422",
+            "Name": "Various Artists - The Number One Acoustic Rock album",
+            "Type": "album",
+            "URI": "Various Artists/The Number One Acoustic Rock album"
+        },
+        {
+            "ID": "0000000423",
+            "Name": "Various Artists - The Unplugged Collection, Volume 1",
+            "Type": "album",
+            "URI": "Various Artists/The Unplugged Collection, Volume 1"
+        },
+        {
+            "ID": "0000000424",
+            "Name": "Various Artists - The Very Merry Christmas Sugo Holiday Sampler",
+            "Type": "album",
+            "URI": "Various Artists/The Very Merry Christmas Sugo Holiday Sampler"
+        },
+        {
+            "ID": "0000000425",
+            "Name": "Various Artists - These People Are Nuts!",
+            "Type": "album",
+            "URI": "Various Artists/These People Are Nuts!"
+        },
+        {
+            "ID": "0000000426",
+            "Name": "Various Artists - Totally Country",
+            "Type": "album",
+            "URI": "Various Artists/Totally Country"
+        },
+        {
+            "ID": "0000000427",
+            "Name": "Various Artists - Trainspotting",
+            "Type": "album",
+            "URI": "Various Artists/Trainspotting"
+        },
+        {
+            "ID": "0000000428",
+            "Name": "Various Artists - Woodstock 94",
+            "Type": "album",
+            "URI": "Various Artists/Woodstock 94"
+        },
+        {
+            "ID": "0000000429",
+            "Name": "Various Artists - Austin Powers - The Spy Who Shagged Me",
+            "Type": "album",
+            "URI": "Various Artists/Austin Powers - The Spy Who Shagged Me"
+        },
+        {
+            "ID": "0000000430",
+            "Name": "Various Artists - KBCO Studio C, Volume 7 - Retrospective",
+            "Type": "album",
+            "URI": "Various Artists/KBCO Studio C, Volume 7 - Retrospective"
+        },
+        {
+            "ID": "0000000431",
+            "Name": "Various Artists - Martha Stewart Living Music - Classical Favorites for the Holidays",
+            "Type": "album",
+            "URI": "Various Artists/Martha Stewart Living Music - Classical Favorites for the Holidays"
+        },
+        {
+            "ID": "0000000432",
+            "Name": "VeggieTales - The Incredible Singing Christmas Tree",
+            "Type": "album",
+            "URI": "VeggieTales/The Incredible Singing Christmas Tree"
+        },
+        {
+            "ID": "0000000433",
+            "Name": "Veruca Salt - Resolver",
+            "Type": "album",
+            "URI": "Veruca Salt/Resolver"
+        },
+        {
+            "ID": "0000000434",
+            "Name": "Vince Guaraldi Trio - A Charlie Brown Christmas",
+            "Type": "album",
+            "URI": "Vince Guaraldi Trio/A Charlie Brown Christmas"
+        },
+        {
+            "ID": "0000000435",
+            "Name": "Violent Femmes - Blind Leading the Naked",
+            "Type": "album",
+            "URI": "Violent Femmes/Blind Leading the Naked"
+        },
+        {
+            "ID": "0000000436",
+            "Name": "Violent Femmes - New Times",
+            "Type": "album",
+            "URI": "Violent Femmes/New Times"
+        },
+        {
+            "ID": "0000000437",
+            "Name": "Weezer - Make Believe",
+            "Type": "album",
+            "URI": "Weezer/Make Believe"
+        },
+        {
+            "ID": "0000000438",
+            "Name": "Weezer - Weezer",
+            "Type": "album",
+            "URI": "Weezer/Weezer"
+        },
+        {
+            "ID": "0000000439",
+            "Name": "Wes Montgomery - The Artistry of Wes Montgomery",
+            "Type": "album",
+            "URI": "Wes Montgomery/The Artistry of Wes Montgomery"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+[Unit]
+Description=MusicCards
+Requires=mpd.service
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/src/JukeBox
+ExecStart=/usr/bin/python3 -u /home/pi/src/JukeBox/src/JukeBox.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
