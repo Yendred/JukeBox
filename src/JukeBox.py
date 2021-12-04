@@ -89,13 +89,11 @@ class JukeBox:
             cardType = cardData["Type"]
             cardURI = cardData["URI"]
 
-            localPath = ""
             if cardType == "album":
                 client.stop()
                 client.clear()
 
-                localPath = cardURI  # .replace("file://", "")
-                for root, directories, files in walk(localPath, topdown=False):
+                for root, directories, files in walk(cardURI, topdown=False):
                     for name in files:
                         filePath = join(root, name)
                         if isfile(filePath) and (not name.endswith(".jpg")):
@@ -104,27 +102,21 @@ class JukeBox:
 
                 client.play()
 
-            elif "https://" in cardURI:
-                if "youtube.com" in cardURI:
-                    # do nothing for now
-                    pass
+            elif cardType == "youtube":
+                # do nothing for now
+                pass
 
-                else:
-                    localPath = cardURI
-                    client.update()
-                    client.rescan()
-                    client.stop()
-                    client.clear()
-                    localPath = ""
+            elif cardType == "url":
+                client.stop()
+                client.clear()
+
+                self.logger.info(f"Adding {cardName}, URL [{cardURI}]")
+                client.add(cardURI)
+                client.play()
 
             else:
                 print(f"Don't know what to do here with URI '{cardURI}'")
                 return
-
-            # if localPath != None and localPath != "":
-            #     print(f"\tAdding:\t'{cardName}'")
-            #     client.add(localPath)
-            #     client.play()
 
         except Exception as e:
             self.logger.warning(f"Could not play '{cardData}'")
@@ -447,14 +439,14 @@ class JukeBox:
                             f"Failed to execute Action {cardName}, skipping : {e}"
                         )
 
-                elif cardType == "song":
+                elif cardType == "url":
+                    self.ClearAndPlay(client, cardData)
+
+                elif cardType == "youtube":
                     self.ClearAndPlay(client, cardData)
 
                 elif cardType == "album":
-                    # mpc add '/mnt/USBMusic/Sorted/ABBA/Gold - Greatest Hits/01 Dancing Queen.mp3'
                     self.ClearAndPlay(client, cardData)
-
-                # print(f"\tClient Status:\tPlaying:'{client.fileFullPathsong().get("name")}'\tVolume:'{client.status().get('volume')}'\tState:'{client.status().get('state')}'\n")
 
                 if client:
                     client.close()
@@ -549,29 +541,31 @@ if __name__ == "__main__":
         logger.debug("-- Starting")
         app = JukeBox()
         app.printStatus(None)
-        if True:
+        if False:
+            # this really needs to be moved to a test framework and implemented there
             cards = [
-                "0002933291",  #   "Volume Down"
-                "0002933291",  #   "Volume Down"
-                "0002933292",  #   "Volume Up"
-                "0002933292",  #   "Volume Up"
-                "0004139483",  #   "Nirvana - MTV Unplugged in New York"
-                "0002933291",  #   "Volume Down"
-                "0002933291",  #   "Volume Down"
-                "0002933292",  #   "Volume Up"
-                # "0002933292",       #   "Volume Up"
-                "0002933270",  #   "Pause"
-                "0002933269",  #   "Play"
-                "0002929612",  #   "Next"
-                "0002929612",  #   "Next"
-                "0002973948",  #   "Skip Forward"
-                "0002973948",  #   "Skip Forward"
-                "0002929617",  #   "Stop"
-                "0000051813",  #   "Killers"
-                "0002929612",  #   "Next"
-                "0002929612",  #   "Next"
-                "0002933291",  #   "Volume Down"
-                "0002929617",  #   "Stop"
+                # "0000000440"  # Youtube
+                "0002911458"  #   "WHRV"
+                # "0002933291",  #   "Volume Down"
+                # "0002933291",  #   "Volume Down"
+                # "0002933292",  #   "Volume Up"
+                # "0002933292",  #   "Volume Up"
+                # "0004139483",  #   "Nirvana - MTV Unplugged in New York"
+                # "0002933291",  #   "Volume Down"
+                # "0002933291",  #   "Volume Down"
+                # "0002933292",  #   "Volume Up"
+                # "0002933270",  #   "Pause"
+                # "0002933269",  #   "Play"
+                # "0002929612",  #   "Next"
+                # "0002929612",  #   "Next"
+                # "0002973948",  #   "Skip Forward"
+                # "0002973948",  #   "Skip Forward"
+                # "0002929617",  #   "Stop"
+                # "0000051813",  #   "Killers"
+                # "0002929612",  #   "Next"
+                # "0002929612",  #   "Next"
+                # "0002933291",  #   "Volume Down"
+                # "0002929617",  #   "Stop"
             ]
             for card in cards:
                 app.processCard(card)
@@ -580,9 +574,10 @@ if __name__ == "__main__":
             client = app.connectMPD()
             logger.info(client.status())
             client.disconnect()
+            client = None
+            sys.exit(0)
 
-        else:
-            app.main()
+        app.main()
     except SystemExit as se:
         logger.exception(f"global: Unhandled System Exit Exception, Exiting.... {se}")
     except Exception as ex:

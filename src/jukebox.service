@@ -1,5 +1,5 @@
 [Unit]
-Description=MusicCards
+Description=JukeBox
 Requires=mpd.service
 After=network.target
 
