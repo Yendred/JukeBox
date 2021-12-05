@@ -29,8 +29,12 @@ while True:
 
         with open(devicePath, "w") as f:
             f.write(devices[dev_id].name)
+            print(f"'{devicePath}' created")
 
         break
 
     except Exception as ex:
         print(f"{ex}\n")
+
+print("done")
+sys.exit(0)

@@ -38,7 +38,7 @@ def setUpLogging(logfile):
         format="%(asctime)s [%(levelname)5s] %(name)s::%(funcName)s - %(message)s",
         handlers=[
             logging.FileHandler(
-                "/var/log/musiccards/music-cards.log"
+                "/var/log/jukebox/jukebox.log"
             ),  # , when="D", backupCount=5
             logging.StreamHandler(),
             # logging.handlers.TimedRotatingFileHandler(logfile, when="D", backupCount=5),
@@ -79,8 +79,8 @@ class JukeBox:
                 client.crossfade(2)
 
             return client
-        except:
-            self.logger.exception("Could not connect to MPD server")
+        except Exception as e:
+            self.logger.error(f"Could not connect to MPD server: {e}")
 
     def ClearAndPlay(self, client, cardData):
         try:
@@ -447,6 +447,8 @@ class JukeBox:
 
                 elif cardType == "album":
                     self.ClearAndPlay(client, cardData)
+
+                # self.printStatus(client)
 
                 if client:
                     client.close()

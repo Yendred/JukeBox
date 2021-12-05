@@ -12,7 +12,7 @@ class Reader:
             "X^1234567890XXXXqwertzuiopXXXXasdfghjklXXXXXyxcvbnmXXXXXXXXXXXXXXXXXXXXXXX"
         )
         if not os.path.isfile(os.path.join(path, "deviceName.txt")):
-            sys.exit("Please run config.py first")
+            sys.exit("Please run '/usr/bin/env python3 ./configure/ConfigRFIDReader.py' first")
 
         with open(os.path.join(path, "deviceName.txt"), "r") as f:
             deviceName = f.read()
