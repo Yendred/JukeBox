@@ -1,8 +1,9 @@
+# dont for get to set your local and timezone
 # change to home folder
 cd ~
 
 #update
-sudo apt -y update
+sudo apt -y update && sudo apt -y upgrade
 
 # Install GIT
 sudo apt -y install git
@@ -14,7 +15,7 @@ cd ~/src
 git clone https://github.com/Yendred/JukeBox.git
 
 # create directory for logs
-sudo mkdir /var/log/jukebox
+sudo mkdir -p /var/log/jukebox
 sudo chown pi:pi /var/log/jukebox
 
 # alsa-base:
@@ -48,24 +49,30 @@ sudo apt -y clean
 # uncomment this line and change replace "no" with "yes"
 #       volume_normalization    "no"
 
+# look for this section and make sure these lines are uncommented
+#   audio_output {
+#    	type		"alsa"
+#    	name		"My ALSA Device"
+#    }
 
 
-cat /proc/asound/cards
 # if the output of the above command does not show the speakers as the
 # default or 0 device we will need to edit /usr/share/alsa/alsa.conf and change the following
 # find the following lines and change the number to the device as shown in 'cat /proc/asound/cards'
+# cat /proc/asound/cards
+# sudo nano /usr/share/alsa/alsa.conf
 #   defaults.pcm.card 1
 #   defaults.ctl.card 1
 # I dont like this solution, if the devices switch places we will no longer have a working sound device
 
 
 # Install python modules
+# /usr/bin/env python3 -m pip freeze > requirements.txt
+/usr/bin/env python3 -m pip install --user --upgrade -r ./JukeBox/src/requirements.txt
 # sudo -H pip3 install --upgrade python-mpd2
 # sudo -H pip3 install --upgrade evdev
 /usr/bin/python3 -m pip install --user --upgrade python-mpd2 evdev jsonpath-ng black
 
-# /usr/bin/env python3 -m pip freeze > requirements.txt
-# /usr/bin/env python3 -m pip install -r requirements.txt
 
 # https://www.shellhacks.com/raspberry-pi-mount-usb-drive-automatically/
 # create mount point for USB Drive
