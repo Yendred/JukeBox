@@ -51,5 +51,5 @@ sseclient==0.0.26
 ssh-import-id==5.7
 tornado==5.1.1
 uritemplate==3.0.1
-urllib3==1.25.7
+urllib3==1.26.5
 depricated==1.12.1
