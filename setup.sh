@@ -76,7 +76,7 @@ sudo apt -y clean
 
 # https://www.shellhacks.com/raspberry-pi-mount-usb-drive-automatically/
 # create mount point for USB Drive
-sudo mkdir /mnt/USBMusic
+sudo mkdir -p /mnt/USBMusic
 
 # run 'lsblk -fp'  to determine where the USB Drive is mounted, on this run it is located at /dev/sda1
 sudo mount -t exfat /dev/sda1 /mnt/USBMusic
